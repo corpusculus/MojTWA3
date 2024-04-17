@@ -5,7 +5,7 @@ import {
   MainButtonProps,
 } from '@vkruglikov/react-telegram-web-app';
 
-const MainButtonDemo: FC<{
+const MainButtonNew: FC<{
   initialValues?: Partial<MainButtonProps>;
 }> = ({ initialValues }) => {
   const [buttonState, setButtonState] = useState<MainButtonProps>({
