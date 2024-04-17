@@ -11,6 +11,7 @@ import './index.css';
 import logo from './logo.svg';
 
 import MainButtonDemo from './MainButtonDemo';
+import MainButtonNew from './MainButtonDemo';
 import BackButtonDemo from './BackButtonDemo';
 import ShowPopupDemo from './ShowPopupDemo';
 import HapticFeedbackDemo from './HapticFeedbackDemo';
@@ -73,7 +74,7 @@ const DemoApp: FC<{
               key="1"
             />
           ) : (
-            <MainButtonDemo
+            <MainButtonNew
               key="2"
               initialValues={{
                 show: isBetaVersion,
@@ -83,7 +84,6 @@ const DemoApp: FC<{
           <BackButtonDemo />
           <ShowPopupDemo />
           <HapticFeedbackDemo />
-          <ScanQrPopupDemo />
         </div>
       </ConfigProvider>
     </div>

@@ -18,7 +18,7 @@ WebView.postEvent = (...args) => {
 WebView.receiveEvent = (...args) => {
   const [eventType, callback, eventData] = args;
 
-  console.log('--ФЫВ------------', eventType, callback, eventData);
+  console.log('--InBetween------------', eventType, callback, eventData);
   return receiveEvent(...args);
 };
 
